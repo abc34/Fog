@@ -1,0 +1,1698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Algorithm.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Global\Api.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\Application.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Arc.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Global\Assert.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\BmpCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Global\BuildInfo.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\CBezier.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Char.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\CharData.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\CharUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Chord.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Circle.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\Color.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\Color_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\ColorAnalyzer.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\ColorBase.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\ColorStop.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\ColorStopCache.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\ColorStopList.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Acc\Constants.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\ContainerUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\CoreObj.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Cpu.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Date.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\DefaultEventLoopImpl.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\DirIterator.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\DitherTable.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Dom\Dom.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Dom\DomResourceManager.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\Dpi.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Ellipse.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\Environment.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\Event.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\EventLoop.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\EventLoopImpl.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\EventLoopObserver.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\EventLoopObserverList.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeBlur.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeColorLut.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeColorLutArray.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeColorMatrix.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeColorMatrix_SSE.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeComponentFunction.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeComponentTransfer.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeCompositingFunction.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeConvolveMatrix.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeConvolveSeparable.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeMorphology.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Filters\FeTurbulence.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\FileInfo.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\FileMapping.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\FilePath.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\FileUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\Font.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Function.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Fuzzy.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\GifCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\Gradient.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Hash.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\HashUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\IcoCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Image.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageCodecProvider.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageConverter.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageDecoder.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageEncoder.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageFilter.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageFormatDescription.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImagePalette.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageResize.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\ImageResize_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Global\Init.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Integrate.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\InternedString.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\JpegCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\Library.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Line.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\List.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\List_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Locale.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\Lock.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Logger.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\MacCGCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Math.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Math2d.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\MathVec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\Matrix.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemBlockAllocator.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemDebug.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemGCAllocator.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemMgr.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemOps.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemPool.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Memory\MemZoneAllocator.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\NullPaintEngine.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\Object.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\OSInfo.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\OSUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTApi.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTCMap.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTFace.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTHead.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTHHea.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTHmtx.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTKern.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTMaxp.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTName.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\OpenType\OTTypes.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\PaintDevice.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\PaintDeviceInfo.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\PaintEngine.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\Painter.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\PaintParams.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\PaintUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Path.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathClipper.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathClipper_SSE.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathClipper_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathEffect.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathInfo.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathOnPath.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\PathStroker.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\Pattern.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\PcxCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Pie.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\PngCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Point.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Polygon.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\QBezier.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Random.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterApi.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterConstants.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterInit.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterInit_C.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterInit_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\Rasterizer.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterPaintContext.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterPaintEngine.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterPaintEngine_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterPaintEngineDoGroup.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterPaintEngineDoRender.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Painting\RasterScanline.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\Reduce.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\RegExp.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\Region.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\Region_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Tools\RegionUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Round.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Shape.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Size.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Solve.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Solve_Polynomial_Analytic.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Solve_Polynomial_Eigen.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Math\Solve_Polynomial_JenkinsTraub.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Stream.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\String.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\StringUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\StringUtil_dtoa.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Stub.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Svg\SvgContext.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Svg\SvgDom.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Svg\SvgUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\Task.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\TextCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\TextDocument.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\TextLayout.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Source\Texture.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\Thread.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\ThreadCondition.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\ThreadEvent.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\ThreadLocal.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Threading\ThreadPool.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Time.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\Timer.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Transform.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Transform_SSE.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Transform_SSE2.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Geometry\Triangle.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\UIEngine.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\UIEngineEvent.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\UIEngineWindow.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\UserUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\Var.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\WinCom.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Kernel\WinEventLoopImpl.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Text\WinFont.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\Imaging\Codecs\WinGdipCodec.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\OS\WinGdiPlus.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\OS\WinImage.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\OS\WinRegion.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\WinUIEngine.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\WinUIEngineWindow.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\UI\Engine\WinUIEventLoopImpl.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\OS\WinUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\OS\WinUtil.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\G2d\OS\WinUxTheme.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\XmlEntity.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Fog\Core\Tools\XmlIO.cpp">
+      <Filter>Fog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Fog\Core\Acc\Acc3dNow.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\Acc3dNowExt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccC.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccC.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccMmx.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccMmx.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccMmxExt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccMmxExt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccMmxSse.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccMmxSse2.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccMmxSsse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccSse.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccSse.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccSse2.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccSse2.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccSse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccSse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Acc\AccSsse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\AccSsse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Acmyk.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Ahsl.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Ahsv.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Algorithm.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Api.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Application.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Arc.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Argb.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Assert.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Atomic.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Atomic_gcc_intrin.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Atomic_gcc_x86x64.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Atomic_msc_intrin.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Atomic_msc_x86.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\AtomicPadding.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\Base.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\BaseAccess_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\BaseAccess_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\BaseConvert_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\BaseConvert_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\BaseDefs_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\BaseDefs_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\BaseHelpers_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\BaseHelpers_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\BmpCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Box.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\BSwap.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\BuildInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\CBezier.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Char.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\CharData.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\CharUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\CharUtilPrivate_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Chord.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Circle.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Class.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Cleanup.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Color.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\ColorAnalyzer_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\ColorBase.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\ColorStop.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\ColorStopCache.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\ColorStopList.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\ColorUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\Compiler.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\CompilerBorland.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\CompilerClang.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\CompilerGnu.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\CompilerIde.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\CompilerMsc.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeClear_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeClear_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeExt_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeExt_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeFunc_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeFunc_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeNop_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeSrc_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeSrc_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\CompositeSrcOver_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\CompositeSrcOver_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\ConfigCMake.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Acc\Constants.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Constants.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\ContainerUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Coord.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\CoreObj.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Cpu.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Date.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\DefaultEventLoopImpl_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Delegate.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\DirIterator.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\DitherTable_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Dom\Dom.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Dom\DomResourceManager.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\Dpi.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Ellipse.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Enum.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\EnumCore.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\EnumError.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\EnumEvent.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\EnumG2d.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\EnumUI.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\Environment.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Event.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\EventLoop.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\EventLoopImpl.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\EventLoopObserver.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\EventLoopObserverList.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeBase.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeBlur.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeBorder.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeColorLut.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeColorLutArray.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeColorMatrix.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeComponentFunction.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeComponentTransfer.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeCompositingFunction.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeConvolveMatrix.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeConvolveSeparable.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeMorphology.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Filters\FeTurbulence.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\FileInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\FileMapping.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\FilePath.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\FileUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterBlur_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterColorLut_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterColorMatrix_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterComponentTransfer_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterConvolveMatrix_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterConvolveSeparable_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\FilterMorphology_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\FloatControl.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\Font.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Function.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Fuzzy.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Global.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Gradient.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\GradientBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\GradientBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\GradientConical_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\GradientConical_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\GradientLinear_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\GradientLinear_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\GradientRadial_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\GradientRadial_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\GradientRectangular_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\GradientRectangular_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Hash.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\HashString.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\HashUInt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\HashUntyped.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\HashUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\IcoCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Image.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageBits.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageCodec.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageCodecProvider.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageConverter.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageDecoder.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageEncoder.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageFilter.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageFilterScale.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageFormatDescription.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImagePalette.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\ImageResize_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Init.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Init_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Integrate.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Internals_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\InternedString.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Interval.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\Intrin3dNow.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinMmx.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinMmxExt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinSse.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinSse2.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinSse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\IntrinSsse3.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\JpegCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\Library.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Line.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\List.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\ListReal.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\ListString.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\ListUntyped.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\ListVar.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Locale.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Lock.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Logger.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\MacCGCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Main.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Math.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Math2d.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\MathVec.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\Matrix.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemBlockAllocator.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemBuffer.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemBufferTmp_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemDebug_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemGCAllocator.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemMgr.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemOps.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemPool.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Memory\MemZoneAllocator.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\NullPaintEngine_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Object.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\OSInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\OS\OSUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\OSUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTApi.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTCMap.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTEnum.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTFace.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTHead.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTHHea.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTHmtx.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTKern.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTMaxp.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTName.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTTypes.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\OpenType\OTUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\PackByte.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\PackDWord.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\PackQWord.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\PackRestore.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\PackWord.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\PaintDevice.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\PaintDeviceInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\PaintEngine.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\Painter.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\PaintParams.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\PaintUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Path.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathClipper.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathEffect.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathOnPath.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathStroker.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PathTmp_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Pattern.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\PcxCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Pie.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\PngCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Point.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PointArray.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Polygon.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\PolygonTmp_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Private.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Property.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\QBezier.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Random.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Range.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterApi_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterConstants_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterInit_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\Rasterizer_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterPaintCmd_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterPaintContext_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterPaintEngine_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterPaintStructs_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterScanline_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterSpan_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterStructs_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterUtil_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Rect.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\RectArray.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\Reduce_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\RegExp.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\Region.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\RegionTmp_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Tools\RegionUtil_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Round.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Shape.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Size.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Math\Solve.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Static.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdArch.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdDefs.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdHeaders.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdInt.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdNew.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\C++\StdOS.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Stream.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\String.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\StringTmp_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\StringUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\StringUtil_dtoa_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Stub.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Svg\SvgContext.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Svg\SvgDom.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Svg\SvgUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Swap.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Task.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\TextCodec.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\TextCodec_Page8Tables_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\TextDocument.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\TextLayout.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\TextRect.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Source\Texture.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\TextureAffine_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\TextureAffine_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\TextureBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\TextureBase_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\TextureProjection_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\TextureProjection_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\TextureScale_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\TextureScale_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_C\TextureSimple_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Painting\RasterOps_SSE2\TextureSimple_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Thickness.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\Thread.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\ThreadCondition.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\ThreadEvent.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\ThreadLocal.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Threading\ThreadPool.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Time.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\Timer.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Transform.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Geometry\Triangle.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\TypeDefs.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\TypeInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Types.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngine.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineDisplayInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineEvent.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineKeyboardInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineKeyboardState.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineMouseInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineMouseState.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEnginePaletteInfo.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineSecondaryFB.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\UIEngineWindow.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Tools\UIUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Global\Uninitialized.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\UserUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\Var.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\VarId.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\WinCom.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Kernel\WinEventLoopImpl.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Text\WinFont.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\Imaging\Codecs\WinGdipCodec_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\OS\WinGdiPlus.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\WinUIEngine.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\WinUIEngineWindow.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\WinUIEventLoopImpl_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\OS\WinUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\OS\WinUtil.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\G2d\OS\WinUxTheme.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\X11UIEngine.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\X11UIEngineConfig.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\X11UIEngineWindow.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\X11UIEngineXlib.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\UI\Engine\X11UIEventLoopImpl_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\XmlEntity_p.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Fog\Core\Tools\XmlIO.h">
+      <Filter>Fog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fog">
+      <UniqueIdentifier>{7493f1a4-20f2-4be9-b8ae-27801e379724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
